@@ -1,3 +1,3 @@
  $(".accordion").on("click", ".accordion-header", function() {
-    $(this).toggleClass("active").prev().slideToggle();
+    $(this).toggleClass("active").next().slideToggle();
  });
